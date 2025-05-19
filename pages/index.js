@@ -1,8 +1,14 @@
-export default function Home() {
-  return (
-    <div>
-      <h1>My Resume</h1>
-      {/* Add your resume content here */}
-    </div>
-  )
-}
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  images: {
+    domains: [
+      "res.cloudinary.com",
+      "lh3.googleusercontent.com",
+      "next-auth.js.org",
+      "avatars.githubusercontent.com",
+      "platform-lookaside.fbsbx.com",
+    ],
+  },
+};
+
+module.exports = nextConfig;
