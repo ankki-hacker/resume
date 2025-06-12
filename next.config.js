@@ -2,11 +2,11 @@
 const nextConfig = {
   images: {
     domains: [
-      "res.cloudinary.com",
-      "lh3.googleusercontent.com",
-      "next-auth.js.org",
-      "avatars.githubusercontent.com",
-      "platform-lookaside.fbsbx.com",
+      "http://mehulseek2.github.io/ai",
+      "http://mehulseek2.github.io/ai",
+      "http://mehulseek2.github.io/ai",
+      "http://mehulseek2.github.io/ai",
+      "http://mehulseek2.github.io/ai",
     ],
   },
 };
